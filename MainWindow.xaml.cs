@@ -24,5 +24,31 @@ namespace PROG6212_POE_PART_1_
         {
             InitializeComponent();
         }
+
+        private void SubmitClaimButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Claim submitted successfully! Status updated to Pending.");
+            StatusTextBlock.Text = "Claim Status: Submitted - Awaiting Approval";
+        }
+
+        private void UploadDocumentButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Document uploaded. Attached to your claim.");
+        }
+
+        private void TrackStatusButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Your claim is being tracked. Current status: Pending.");
+        }
+
+        private void ApproveClaimButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ViewClaimsButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
