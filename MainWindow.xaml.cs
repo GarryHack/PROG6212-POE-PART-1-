@@ -43,12 +43,13 @@ namespace PROG6212_POE_PART_1_
 
         private void ApproveClaimButton_Click(object sender, RoutedEventArgs e)
         {
-
+             MessageBox.Show("Claim verified and approved!");
+             AdminStatusTextBlock.Text = "All Claims: 4 Pending";
         }
 
         private void ViewClaimsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Showing list of pending claims. (Prototype - no real data)");
         }
     }
 }
